@@ -6,7 +6,7 @@ module.exports.run = async (client, msg, args) => {
     msg.delete();
     let embed = new RichEmbed()
     //.addField("This is a field", "this is its description" , true)
-    .setDescription("ZF9#1214")
+    .setDescription("ZF9#7655")
     .setColor(config.embed_colour)
     .setFooter(config.embed_footer)
     return msg.channel.send(embed)

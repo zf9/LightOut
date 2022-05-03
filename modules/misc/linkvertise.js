@@ -13,6 +13,9 @@ module.exports.run = async (client, msg, args) => {
     } catch (err) {
         console.error(err);
     }
+    //TinyURL.shorten(args[0]).then(function(res) {
+    //msg.reply(res);
+    //});
 }
 
 module.exports.help = {
